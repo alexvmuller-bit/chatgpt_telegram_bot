@@ -1,5 +1,5 @@
 telegram_token: "7630787531:AAGjwIi6GGewenb5RT3NpgnArbm3JjMPrxM"
-openai_api_key: "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"
+openai_api_key: ""
 openai_api_base: null
 
 # Разрешённые пользователи (username или user_id)
