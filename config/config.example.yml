@@ -1,14 +1,18 @@
 telegram_token: "7630787531:AAGjwIi6GGewenb5RT3NpgnArbm3JjMPrxM"
-openai_api_key: ""
-openai_api_base: null  # leave null to use default api base or you can put your own base url here
-allowed_telegram_usernames: []  # if empty, the bot is available to anyone. pass a username string to allow it and/or user ids as positive integers and/or channel ids as negative integers
-new_dialog_timeout: 600  # new dialog starts after timeout (in seconds)
+openai_api_key: "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"
+openai_api_base: null
+
+# Разрешённые пользователи (username или user_id)
+allowed_telegram_usernames: []
+
+# Настройки чата
+new_dialog_timeout: 600
 return_n_generated_images: 1
 n_chat_modes_per_page: 5
-image_size: "512x512" # the image size for image generation. Generated images can have a size of 256x256, 512x512, or 1024x1024 pixels. Smaller sizes are faster to generate.
-enable_message_streaming: true  # if set, messages will be shown to user word-by-word
+image_size: "512x512"  # размер для DALL·E
+enable_message_streaming: true
 
-# prices
-chatgpt_price_per_1000_tokens: 0.002
-gpt_price_per_1000_tokens: 0.02
+# Цены (необязательно менять, но можно для отображения пользователю)
+chatgpt_price_per_1000_tokens: 0.0006
+gpt_price_per_1000_tokens: 0.0006
 whisper_price_per_1_min: 0.006
